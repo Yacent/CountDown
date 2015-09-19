@@ -126,23 +126,95 @@ h2 {
 /* end preloader */
 
 /* start countdown */
+
+
 .logo-center {
-	width: 300px;
+	width: 400px;
 	height: 100px;
 
 	background-image: url("../images/newLogo.png");
-	background-size: 300px;
+	background-size: 180px;
+	background-repeat: no-repeat;
+	background-position: right;
+
+	z-index: 999;
+	
+	position: absolute;
+	top: 25%;
+	left: 2%;
+
+	line-height: 100px;
+
+}
+
+.logo-center span, .logo-37 span {
+	margin-left: -50px;
+}
+
+.logo-37 {
+	width: 360px;
+	height: 100px;
+
+	background-image: url("../images/37logo.png");
+	background-size: 120px;
+	background-repeat: no-repeat;
+	background-position: right;
+
+	position: absolute;
+	top: 65%;
+	left: 0;
+
+	line-height: 100px;
+
+	z-index: 999;
+
+}
+
+.logo-37 span {
+	margin-left: 19px;
+}
+
+.logo-center-weixin {
+	width: 100px;
+	height: 200px;
+
+	background-image: url("../images/weixin.png");
+	background-size: 100px;
 	background-repeat: no-repeat;
 	background-position: center;
 
 	z-index: 999;
 	
-	position: absolute;
-	top: 450px;
-	left: 50%;
+	margin-top: 25px;
+	padding-top: 170px;
 
-	margin-left: -150px;
+}
 
+.logo-center-weixin span {
+	display: block;
+	margin-bottom: 3px;
+}
+
+.footer {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.footer-left {
+	width: 672px;
+	height: 200px;
+	position: relative;
+
+	float: left;
+}
+
+.footer-right {
+	width: 280px;
+	height: 200px;
+	position: relative;
+	float: right;
 }
 
 #countdown
@@ -173,7 +245,7 @@ h2 {
 		font-weight: bold;
 	}
 #countdown .head-span {
-	font-size: 70px;
+	font-size: 50px;
 }
 ul.countdown
 	{
