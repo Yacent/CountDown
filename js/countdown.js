@@ -5,7 +5,7 @@
 		thisEl = $(this);
 
 		//array of custom settings
-		var settings = { 
+		var settings = {
 			'date': null,
 			'format': null
 		};
@@ -24,6 +24,8 @@
 			if(eventDate <= currentDate) {
 				callback.call(this);
 				clearInterval(interval);
+				// 实现页面的自动跳转
+				window.location.href = "http://107.191.53.184:1234";
 			}
 			
 			seconds = eventDate - currentDate;

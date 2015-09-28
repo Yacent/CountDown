@@ -10,7 +10,7 @@ $(function(){
     var subElementArray = $.map($('.sub-element'), function(el) { return $(el).text(); });    
     $(".element").typed({
         strings: subElementArray,
-        typeSpeed: 35,
+        typeSpeed: 20,
         contentType: 'html',
         showCursor: false,
         loop: true,
